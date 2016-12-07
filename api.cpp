@@ -96,13 +96,3 @@ void Node::playMoves()
 {
     // TODO
 }
-    
-#include <iostream>
-int main()
-{
-    Bitboards::init();
-    Node n = Node();
-    
-    for (int p : n.position.pieceCount)
-        cout << p << endl;
-}
